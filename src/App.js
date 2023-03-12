@@ -20,7 +20,7 @@ export default function App() {
   };
 
   return (
-    <div className="App">
+    <main className="App">
       {adviceData && (
         <div className="card">
           <h1>ADVICE #{adviceData.id}</h1>
@@ -33,6 +33,6 @@ export default function App() {
           </button>
         </div>
       )}
-    </div>
+    </main>
   );
 }
